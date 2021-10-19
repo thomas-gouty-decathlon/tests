@@ -1,0 +1,24 @@
+{
+  "name": "commitizen-test",
+  "version": "1.0.0",
+  "description": "for test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "cz"
+  },
+  "author": "tom gty",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
